@@ -36,7 +36,7 @@ class Busquedas {
 
     getHistorialCapitalizado() {
 
-        this.historial.map(ciudad => {
+        return this.historial.map(ciudad => {
 
             const letraCapitalizada = ciudad.split(' ').map(palabra => palabra[0].toUpperCase() + palabra.substring(1))
 
